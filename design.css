@@ -1,0 +1,406 @@
+body {
+    background: black; 
+    align-items: center;
+}
+.content {
+    margin: auto; 
+    width: 750px; 
+    height: 300px; 
+    display: flex; 
+    padding: 10%;
+}
+
+.del {
+    background: #e50914; 
+}
+
+.A-del1 {
+    width: 60px; 
+    height: 300px; 
+    transform: skewX(-5deg);
+    animation: A-del1 3s linear; 
+    box-shadow: 2px 0 30px 1px black; 
+    z-index: 2; 
+}
+.A-del2 {
+    width: 40px; 
+    height: 60px; 
+    margin: 170px 0 0 -10px; 
+    transform: skewY(-3deg);
+    animation: A-del2 3s linear;
+}
+.A-del3 {
+    width: 60px; 
+    height: 295px; 
+    margin: 0 0 0 -20px; 
+    transform: skewX(5deg);
+    animation: A-del3 3s linear;
+}
+
+
+.L-del1 {
+    width: 60px; 
+    height: 290px; 
+    margin: 0 0 10px 30px; 
+    animation: L-del1 3s linear; 
+}
+.L-del2 {
+    width: 150px; 
+    height: 60px; 
+    margin: 228px 0 0 -60px; 
+    transform: skewY(-2deg);
+    animation: L-del2 3s linear; 
+    box-shadow: 0 2px 30px 1px black; 
+    z-index: 2; 
+}
+
+.I {
+    width: 60px; 
+    height: 280px; 
+    margin: 0 0 0 15px; 
+    animation: I 3s linear; 
+}
+
+.C-del1-1 {
+    width: 60px; 
+    height: 82.5px; 
+    margin: 60px 0 0 20px; 
+    animation: C-del1-1 3s linear; 
+}
+.C-del1-2 {
+    width: 60px; 
+    height: 82.5px; 
+    margin: 142.5px 0 0 -60px; 
+    animation: C-del1-2 3s linear; 
+}
+.C-del2 {
+    width: 60px; 
+    height: 60px; 
+    margin: 225px 0 0 -49px; 
+    transform: skewX(20deg); 
+    animation: C-del2 3s linear; 
+    box-shadow: 0 2px 30px 1px black; 
+    
+}
+.C-del3 {
+    width: 60px; 
+    height: 60px; 
+    margin: 0 0 0 -60px; 
+    transform: skewX(-20deg);
+    animation: C-del3 3s linear;
+    box-shadow: 0 -2px 30px 1px black;
+}
+.C-del4 {
+    width: 65px; 
+    height: 60px; 
+    margin: 227px 0 0 -10px; 
+    transform: skewY(3deg);
+    animation: C-del4 3s linear; 
+    z-index: 2; 
+}
+.C-del5 {
+    width: 65px; 
+    height: 60px; 
+    margin: 0 0 0 -65px; 
+    animation: C-del5 3s linear; 
+    z-index: 2; 
+}
+.C-del6 {
+    width: 60px; 
+    height: 60px; 
+    margin: 228px 0 0 -30px; 
+    transform: skewX(-20deg);
+    animation: C-del6 3s linear; 
+    box-shadow: 0 2px 30px 1px black; 
+}
+.C-del7 {
+    width: 60px; 
+    height: 60px; 
+    margin: 0 0 0 -60px; 
+    transform: skewX(20deg);
+    animation: C-del7 3s linear; 
+    box-shadow: 0 -2px 30px 1px black; 
+}
+.C-del8 {
+    width: 60px; 
+    height: 50px; 
+    margin: 60px 0 0 -48px; 
+    animation: C-del8 3s linear;
+}
+.C-del9 {
+    width: 60px; 
+    height: 50px; 
+    margin: 184px 0 0 -61px; 
+    animation: C-del9 3s linear; 
+}
+
+
+.E-del1 {
+    width: 60px; 
+    height: 295px; 
+    margin: 0 0 0 20px; 
+    animation: E-del1 3s linear; 
+    box-shadow: 2px 0 30px 1px black; 
+    z-index: 2; 
+}
+.E-del2 {
+    width: 90px; 
+    height: 60px; 
+    margin: 236.5px 0 0 0; 
+    transform: skewY(2.5deg); 
+    animation: E-del2 3s linear; 
+}
+.E-del3 {
+    width: 70px; 
+    height: 60px; 
+    margin: 120px 0 0 -90px; 
+    animation: E-del3 3s linear; 
+}
+.E-del4 {
+    width: 150px; 
+    height: 60px; 
+    margin: 0 0 0 -130px; 
+    animation: E-del4 3s linear;
+    box-shadow: 0 -2px 30px 1px black; 
+    z-index: 3; 
+}
+
+
+/* ANIMATIONER */
+
+
+@keyframes A-del1 {
+    0% {
+        height: 0; 
+        margin-top: 300px; 
+        box-shadow: 0; 
+    }
+    10% {
+        height: 300px; 
+        margin-top: 0; 
+    }
+}
+@keyframes A-del2 {
+    0% {
+        width: 0; 
+    }
+    4% {
+        width: 0; 
+    }
+    15% {
+        width: 40px; 
+    }
+}
+@keyframes A-del3 {
+    0% {
+        height: 0; 
+    }
+    10% {
+        height: 0; 
+    }
+    20% {
+        height: 295px; 
+    }
+}
+
+@keyframes L-del1 {
+    0% {
+        height: 0; 
+    }
+    20% {
+        height: 0; 
+    }
+    33% {
+        height: 290px; 
+    }
+}
+@keyframes L-del2 {
+    0% {
+        width: 0; 
+    }
+    33% {
+        width: 0; 
+    }
+    40% {
+        width: 150px; 
+    }
+}
+@keyframes I {
+    0% {
+        height: 0; 
+    }
+    40% {
+        height: 0; 
+        margin-top: 280px; 
+    }
+    60% {
+        margin-top: 0; 
+        height: 280px;  
+    }
+}
+
+
+@keyframes C-del1-1 {
+    0% {
+        height: 0; 
+    }
+    60% {
+        height: 0;
+        margin-top: 142.5px; 
+    }
+    65% {
+        height: 82.5px; 
+        margin-top: 60px; 
+    }
+}
+@keyframes C-del1-2 {
+    0% {
+        height: 0; 
+    }
+    60% {
+        height: 0; 
+    }
+    65% {
+        height: 82.5px; 
+    }
+}
+@keyframes C-del2 {
+    0% {
+        height: 0; 
+    }
+    65% {
+        height: 0; 
+    }
+    69% {
+        height: 60px; 
+    }
+}
+@keyframes C-del3 {
+    0% {
+        height: 0; 
+    }
+    65% {
+        height: 0; 
+        margin-top: 60px; 
+    }
+    69% {
+        height: 60px; 
+        margin-top: 0; 
+    }
+}
+@keyframes C-del4 {
+    0% {
+        width: 0; 
+    }
+    69% {
+        width: 0; 
+    }
+    73% {
+        width: 65px; 
+    }
+}
+@keyframes C-del5 {
+    0% {
+        width: 0; 
+    }
+    69% {
+        width: 0; 
+    }
+    73% {
+        width: 65px; 
+    }
+}
+@keyframes C-del6 {
+    0% {
+        width: 0; 
+    }
+    73% {
+        width: 0; 
+    }
+    76% {
+        width: 60px; 
+    }
+}
+@keyframes C-del7 {
+    0% {
+        width: 0; 
+    }
+    73% {
+        width: 0; 
+    }
+    76% {
+        width: 60px; 
+    }
+}
+@keyframes C-del8 {
+    0% {
+        height: 0; 
+    }
+    76% {
+        height: 0; 
+    }
+    80% {
+        height: 50px; 
+    }
+}
+@keyframes C-del9 {
+    0% {
+        height: 0; 
+    }
+    76% {
+        height: 0; 
+        margin-top: 243px; 
+    }
+    80% {
+        height: 50px; 
+        margin-top: 184px; 
+    }
+}
+
+
+@keyframes E-del1 {
+    0% {
+        height: 0; 
+    }
+    80% {
+        height: 0; 
+        margin-top: 295px; 
+    }
+    95% {
+        height: 295px; 
+        margin-top: 0; 
+    }
+}
+@keyframes E-del2 {
+    0% {
+        width: 0; 
+    }
+    84% {
+        width: 0; 
+    }
+    90% {
+        width: 90px; 
+    }
+}
+@keyframes E-del3 {
+    0% {
+        width: 0;
+    }
+    89% {
+        width: 0; 
+    }
+    97% {
+        width: 70px; 
+    }
+}
+@keyframes E-del4 {
+    0% {
+        width: 0; 
+    }
+    95% {
+        width: 0; 
+    }
+    100% {
+        width: 150px; 
+    }
+}
